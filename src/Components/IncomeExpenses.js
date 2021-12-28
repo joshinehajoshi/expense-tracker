@@ -3,8 +3,14 @@ import React from 'react'
 function IncomeExpenses() {
     return (
         <div>
-            <h3>Income EXpenses: </h3>
-            <h4>$200</h4>
+            <div>
+                <h3>Income: </h3>
+                <h4>+$20000</h4>
+            </div>
+            <div>
+            <h3>Expenses: </h3>
+            <h4>-$100</h4>
+        </div>
         </div>
     )
 }
