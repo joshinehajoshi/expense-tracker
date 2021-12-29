@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import '../css/IncomeExpenses.css';
 import { GlobalContext } from '../context/GlobalState';
 
 function IncomeExpenses() {

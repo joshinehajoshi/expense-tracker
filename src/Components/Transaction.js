@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import '../css/Transaction.css';
 import { GlobalContext } from '../context/GlobalState';
 
 function Transaction({ transaction }) {
