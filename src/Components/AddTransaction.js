@@ -5,7 +5,7 @@ function AddTransaction() {
     const [text, setText] = useState('');
     const [amount, setAmount] = useState(0);
     return (
-        <>
+        <div>
             <h3>Add new transaction</h3>
             <form >
                 <div className="form-control">
@@ -19,7 +19,7 @@ function AddTransaction() {
                 </div>
                 <button className="btn">Add transaction</button>
             </form>
-        </>
+        </div>
     )
 }
 
